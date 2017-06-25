@@ -1,0 +1,10 @@
+#Check defaults with:
+xdg-mime query default x-scheme-handler/magnet
+gvfs-mime --query x-scheme-handler/magnet
+
+# Set qbittorrent as default:
+xdg-mime default qBittorent.desktop x-scheme-handler/magnet
+gvfs-mime --set x-scheme-handler/magnet qBittorrent.desktop
+
+# Source of info:
+https://askubuntu.com/questions/307901/how-do-i-assign-magnet-links-to-use-qbittorrent 
