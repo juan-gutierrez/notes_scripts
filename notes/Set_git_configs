@@ -1,0 +1,5 @@
+# Set git configurations examples:
+
+git config --global user.email "gutierrez.rosas@gmail.com"
+git config --global user.name "Juan Gutierrez"
+git config --global core.editor "vim"
